@@ -1,0 +1,100 @@
+body{
+  background: #121214;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo{
+   display: flex;
+   justify-content: center;
+   margin-top: 42px;
+}
+
+.container h1{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: white;
+    margin: 70px 0px 61px 0px;
+}
+
+.perfis__container{
+    display: flex;
+    width: 700px;
+    margin: 0px auto;
+}
+.perfis__container ul{
+    display: flex;
+    min-width: 100%;
+    justify-content: space-between;
+    margin-bottom: 82px;
+    
+}
+.perfis__container ul li{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+.imagem{
+    display: block;
+    width: 160px;
+    height: 160px;
+    border-width: medium;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.imagem:hover{
+    border-width: medium;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+
+.perfis__container ul li span{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9C9C9C;
+    text-align: center;
+    margin-top: 16px;
+}
+.perfis__container ul li span:hover{
+    color: #FFFFFF;
+}
+
+button{
+    display: block;
+    width: 206px;
+    height: 50px;
+    margin: 0px auto;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: #121214;
+    color: #FFFFFF;
+    margin-bottom: 88px;
+}
+button:hover{
+    background-color: #FFFFFF;
+    color: black;
+}
+
+
+
+
+
+
